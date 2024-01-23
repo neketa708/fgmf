@@ -1,0 +1,88 @@
+body{
+    background: #FFF;
+    width: 1920px;
+    height: 700px;
+}
+
+.meun_bar{
+    width: 1170px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+
+.meun_img{
+    width: 35px;
+    height: 40px;
+}
+
+.meun_text{
+    width: 88px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.text_logo{
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.meun_logo{
+    width: 137px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.meun_href{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title_top{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_top{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text_button_top1{
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_button_top2{
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.brand{
+    width: 1920px;
+    height: 243px;
+    flex-shrink: 0;
+}
