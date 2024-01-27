@@ -12,7 +12,6 @@ body{
     display: flex;
 }
 
-
 .meun_img{
     width: 35px;
     height: 40px;
@@ -52,6 +51,7 @@ body{
 .meun_logo{
     display: flex;
 }
+
 .top_content{
     display: flex;
     padding-left: 375px;
@@ -59,6 +59,7 @@ body{
     margin-top: 96px;
     margin-bottom: 162px;
 }
+
 .left_top{
     width: 522px;
     height: 374px;
@@ -66,12 +67,14 @@ body{
     flex-direction: column;
     margin-top: 0px;
 }
+
 .right_top{
     width: 610px;
     height: 372px;
     display: flex;
     justify-content: flex-end;
 }
+
 .title_top{
     color: #000;
     font-family: Gilroy-Bold;
@@ -98,6 +101,7 @@ body{
     margin-top: 0px;
     margin-bottom: 37px;
 }
+
 .text_button_top1{
     color: #FFF;
     font-family: Gilroy-Bold;
@@ -124,6 +128,7 @@ body{
     border: 0;
     background: #FFF;
 }
+
 .button_top{
     width: 302px;
     height: 50px;
@@ -136,4 +141,239 @@ body{
     padding-left: 345px;
     padding-right: 375px;
     justify-content: space-around;
+    padding-bottom: 97px;
+}
+
+.features{
+    width: 1915px;
+    height: 491px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.features1{
+    width: 310px;
+    height: 226px;
+    padding-left: 404px;
+}
+
+.features1_img{
+    width: 70px;
+    height: 70px;
+}
+
+.features1_titl{
+    width: 215px;
+    height: 30px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.features1_text{
+    width: 310px;
+    height: 42px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.features1_but{
+    background-color: #FFF;
+    border: 0;
+    width: 100px;
+    height: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.features2{
+    width: 370px;
+    height: 291px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.features2_img{
+    width: 70px;
+    height: 70px;
+}
+
+.features2_titl{
+    width: 215px;
+    height: 30px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.features2_text{
+    width: 310px;
+    height: 42px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.features2_but{
+    background-color: #FFF;
+    border: 0;
+    width: 100px;
+    height: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.features3{
+    width: 310px;
+    height: 226px;
+    padding-right: 401px;
+}
+
+.features3_img{
+    width: 70px;
+    height: 70px;
+}
+
+.features3_titl{
+    width: 215px;
+    height: 30px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.features3_text{
+    width: 310px;
+    height: 42px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.features3_but{
+    background-color: #FFF;
+    border: 0;
+    width: 100px;
+    height: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.secation{
+    width: 682px;
+    height: 123px;
+}
+
+.secation_title{
+    width: 579px;
+    height: 56px;
+    padding-left: 670px;
+    padding-right: 670px;
+}
+.sec_ti{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.secation_text{
+    padding-left: 619px;
+    padding-right: 619px;
+    width: 682px;
+height: 48px;
+}
+.sec_tiex{
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.services{
+    display: flex;
+}
+
+.services1{
+    width: 370px;
+    height: 549px;
+    padding-left: 375px;
+}
+.services2{
+    width: 370px;
+    height: 549px;
+    padding-left: 17px;
+    padding-right: 22px;
+}
+.services3{
+    width: 370px;
+    height: 549px;
+    padding-right: 353px;
+}
+
+.services_titl{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services_text{
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.services_but{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    border: 0px;
+    border-radius: 50px;
+    background: #F25822;
 }
