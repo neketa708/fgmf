@@ -1,0 +1,53 @@
+@media(max-width:768px) and (max-width:1024px) {
+    .header__left{
+        padding-left: 50px;
+    }
+    .header__right{
+        padding-right: 50px;
+    }
+    .promo__content {
+        padding-left: 0px;
+        Width: 311px;
+        Height: 92px;
+        Top: 212.48px;
+        Left: 425px;
+    }
+    .promo__info {
+        margin-top: 30%;
+    }
+    .promo__title{
+        margin-bottom: 0px;
+        size: 44px;
+        line-height: 52.8px;
+    }
+    .promo__heading{
+        margin-top: 0px;
+        size: 24px;
+        line-height: 28.8px;
+    }
+    .sale{
+        gap:10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .product-box{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .product-box__content{
+        gap: 5px;
+    }
+    .sale__text{
+        Size: 16px;
+        Line-height: 19.2px;
+        margin-bottom: 0px;
+    }
+    .sale__heading{
+        margin-top: 0px;
+        Size: 24px;
+        Line-height: 28.8px;
+    }
+    .sale__item_big {
+        min-height: 0px;
+    }
+}
