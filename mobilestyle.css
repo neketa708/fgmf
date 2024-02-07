@@ -1,53 +1,58 @@
-@media(max-width:768px) and (max-width:1024px) {
+@media(max-width:320px) and (max-width:767px) {
+    .header{
+        flex-wrap: nowrap;
+        height: 74px;
+        padding-left: 10px;
+    }
     .header__left{
-        padding-left: 50px;
+        gap: 10px;
+    }
+    .header__link-site{
+        display: none;
     }
     .header__right{
-        padding-right: 50px;
+        padding-right: 10px;
     }
-    .promo__content {
+    .promo__img{
+        display: none;
+    }
+    .promo__info{
+        margin-top: 0px;
+    }
+    .promo__content{
         padding-left: 0px;
-        Width: 311px;
-        Height: 92px;
-        Top: 212.48px;
-        Left: 425px;
     }
-    .promo__info {
-        margin-top: 30%;
+
+    .promo{
+        height: 363px;
+        top: 74px;
+        justify-content: center;
+        align-items: center;
     }
     .promo__title{
-        margin-bottom: 0px;
-        size: 44px;
-        line-height: 52.8px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
     }
     .promo__heading{
-        margin-top: 0px;
-        size: 24px;
-        line-height: 28.8px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
     }
+
     .sale{
-        gap:10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        grid-template-columns: none;
     }
-    .product-box{
-        margin-left: 10px;
-        margin-right: 10px;
+    .sale__item_big{
+        display: none;
     }
     .product-box__content{
-        gap: 5px;
-    }
-    .sale__text{
-        Size: 16px;
-        Line-height: 19.2px;
-        margin-bottom: 0px;
-    }
-    .sale__heading{
-        margin-top: 0px;
-        Size: 24px;
-        Line-height: 28.8px;
-    }
-    .sale__item_big {
-        min-height: 0px;
+        display: block;
     }
 }
