@@ -729,6 +729,62 @@ summary::-webkit-details-marker {
   -ms-flex-align: center;
   align-items: center;
 }
-@media(max-width:1920px) and (max-width:1080px){
-  
+.bottom{
+  background-image: url('img/subscribe.jpg');
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  width: 1598px;
+  height: 448px;
+  left: 2px;
+  justify-content: center;
+  align-items: center;
+  gap: 400px;
+
+}
+.sub_info{
+  width: 320px;
+  height: 225px;
+  top: 97px;
+  left: 230.29px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.botton_img{
+  margin-bottom: 30px;
+}
+.bottom_text{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.sub{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.sub_titl{
+  margin-bottom: 0px;
+}
+.bottom_but{
+  display: flex;
+}
+.bot_but_inf{
+  width: 100px;
+  height: 49px;
+  top: 243px;
+  left: 1173px;
+  background: #F16D7F;
+  border: 0px;
+}
+.bo_but_text{
+  width: 100px;
+  height: 49px;
+  top: 243px;
+  left: 1173px;
+  border: 0px;
 }
